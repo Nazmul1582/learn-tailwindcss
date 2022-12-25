@@ -8,6 +8,7 @@
 ## Table of Contents
 
 - [How to run](#how-to-run)
+- [Output](#output)
 
 <br>
 
@@ -32,3 +33,8 @@ Please follow the below instructions to run this branch in your machine:
 4. Then run the index.html file with Visual Studio Code Live Server plugin.
 
 <br>
+
+## Output
+
+![responsive card design](./images/responsive-card-design.png)
+![responsive card design for sm:max-w-md](./images/responsive-card-design2.png)
