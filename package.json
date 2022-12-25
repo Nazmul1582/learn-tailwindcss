@@ -1,0 +1,23 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "- I'm learnig tailwind css. so, I've noted tailwind css in this repository. I also add my practicing working directory and add some small projects here.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/styles.css -o ./dist/tailwind.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nazmul1582/tailwindcss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nazmul1582/tailwindcss/issues"
+  },
+  "homepage": "https://github.com/Nazmul1582/tailwindcss#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
