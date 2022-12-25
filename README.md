@@ -2,9 +2,7 @@
 
 ### Table of Contents
 
-- [Installation](#installation)
-  - [Summary](#summary)
-  - [Shortcut](#shortcut)
+- [Tailwind utility-first design approach](#tailwind-utility-first-design-approach)
 
 ## Tailwind utility-first design approach
 
