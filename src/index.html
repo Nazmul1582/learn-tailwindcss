@@ -7,9 +7,28 @@
     <title>Tailwind CSS</title>
     <link rel="stylesheet" href="../dist/tailwind.css" />
   </head>
-  <body>
-    <h1 class="bg-gray-500 text-4xl text-center py-5 font-bold text-gray-100">
-      Hello World!
-    </h1>
+  <body class="h-screen flex items-center justify-center bg-gray-100">
+    <div class="bg-white max-w-sm p-8 rounded-xl shadow-md space-y-2">
+      <div class="h-24 w-24 mx-auto">
+        <img
+          class="rounded-full ring-4 ring-orange-400"
+          src="../images/flower.jpg"
+          alt="profile picture"
+        />
+      </div>
+      <div class="text-center space-y-3">
+        <div class="">
+          <h4 class="text-black text-xl font-semibold">
+            Muhammad Nazmul Hasan
+          </h4>
+          <p class="font-medium text-gray-400">A Junior React Developer</p>
+        </div>
+        <button
+          class="bg-orange-400 px-4 py-1 rounded-md text-white font-semibold"
+        >
+          Visit Now
+        </button>
+      </div>
+    </div>
   </body>
 </html>
