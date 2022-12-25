@@ -14,8 +14,8 @@
 
 ## Output
 
-![responsive card design](./images/responsive-card-design.png)
-![responsive card design for sm:max-w-md](./images/responsive-card-design2.png)
+![responsive card design](./images/after-focus-and-hover.png)
+![responsive card design for sm:max-w-md](./images/before-hover-and-focus.png)
 
 <!-- HOW TO RUN -->
 
