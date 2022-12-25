@@ -1,6 +1,6 @@
 <br />
  <p align="center">
-    <h1 align="center">Responsive Varients and Tailwind Breakpoints - Lesson4</h1>
+    <h1 align="center">Dark mode variant - Lesson6</h1>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -13,7 +13,7 @@
 
 ## Output
 
-![responsive card design](./images/after-focus-and-hover.png)
-![responsive card design for sm:max-w-md](./images/before-hover-and-focus.png)
+![responsive card design](./images/card-design-dark-mode.png)
+![responsive card design for sm:max-w-md](./images/card-design-dark-mode2.png)
 
 <br>
