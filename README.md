@@ -31,10 +31,6 @@ Please follow the below instructions to run this branch in your machine:
    ```sh
    cd tailwindcss
    ```
-3. Checkout/switch to branch lesson4
-   ```sh
-   git checkout lesson4
-   ```
-4. Then run the index.html file with Visual Studio Code Live Server plugin.
+3. Then run the index.html file with Visual Studio Code Live Server plugin.
 
 <br>
