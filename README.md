@@ -7,9 +7,15 @@
 
 ## Table of Contents
 
+- [Output](#output)
 - [How to run](#how-to-run)
 
 <br>
+
+## Output
+
+![responsive card design](./images/responsive-card-design.png)
+![responsive card design for sm:max-w-md](./images/responsive-card-design2.png)
 
 <!-- HOW TO RUN -->
 
