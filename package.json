@@ -4,7 +4,8 @@
   "description": "- I'm learnig tailwind css. so, I've noted tailwind css in this repository. I also add my practicing working directory and add some small projects here.",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/styles.css -o ./dist/tailwind.css -w"
+    "build": "npx tailwindcss -i ./src/styles.css -o ./dist/tailwind.css -w",
+    "build-p": "npx postcss ./src/styles.css -o ./dist/tailwind.css -w"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,10 @@
   "homepage": "https://github.com/Nazmul1582/tailwindcss#readme",
   "devDependencies": {
     "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "postcss-cli": "^10.1.0"
   }
 }
