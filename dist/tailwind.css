@@ -740,6 +740,16 @@ h1 {
   color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
+.dark .dark\:hover\:custom-bg-color:hover {
+  background: #3f3f46;
+}
+
+@media (min-width: 768px) {
+  .dark .dark\:hover\:custom-bg-color:hover {
+    background-color: #4b5563;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:mx-0 {
     margin-left: 0px;
@@ -774,14 +784,18 @@ h1 {
     text-align: left;
   }
 
+  .dark .sm\:dark\:custom-bg-color {
+    background: #3f3f46;
+  }
+
+  @media (min-width: 768px) {
+    .dark .sm\:dark\:custom-bg-color {
+      background-color: #4b5563;
+    }
+  }
+
   .dark .sm\:hover\:dark\:bg-gray-700:hover {
     --tw-bg-opacity: 1;
     background-color: rgb(55 65 81 / var(--tw-bg-opacity));
-  }
-}
-
-@media (min-width: 768px) {
-  .dark .md\:dark\:hover\:custom-bg-color:hover {
-    background: #132949;
   }
 }

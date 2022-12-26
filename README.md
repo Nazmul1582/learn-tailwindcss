@@ -1,6 +1,6 @@
 <br />
  <p align="center">
-    <h1 align="center">@layer Directive - Lesson8</h1>
+    <h1 align="center"> Alternative of @variants and @responsive Directive - Lesson10</h1>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -13,24 +13,16 @@
 
 ## Output
 
-- new
+- custom variants
 
-![custom variants](./images/lesson9.png)
+![custom variants](./images/%40variants%20alternative.png)
 
-- previous card
+- @responsive variants alternative
 
-  ![responsive card design](./images/Composing%20Utilities%20with%20%40apply%20Directive.png)
+  ![@responsive variants alternative](./images/%40responsive%20variants%20alternative.png)
 
-- current card
+- @screen directive
 
-  ![responsive card design](./images/%40layer%20Directive.png)
-
--previous card sm
-
-![responsive card design for sm:max-w-md](./images/Composing%20Utilities%20with%20%40apply%20Directive2.png)
-
--current card sm
-
-![responsive card design for sm:max-w-md](./images/%40layer%20Directive2.png)
+  ![@screen directive](./images/use%20of%20%40screen%20directive.png)
 
 <br>

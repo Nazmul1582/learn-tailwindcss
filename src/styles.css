@@ -31,6 +31,11 @@
     font-size: 12px;
   }
   .custom-bg-color {
-    background: #132949;
+    background: #3f3f46;
+  }
+  @screen md {
+    .custom-bg-color {
+      background-color: #4b5563;
+    }
   }
 }
