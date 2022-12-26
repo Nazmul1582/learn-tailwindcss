@@ -1,6 +1,6 @@
 <br />
  <p align="center">
-    <h1 align="center">@layer Directive - Lesson8</h1>
+    <h1 align="center">Custom variants - Lesson9</h1>
 </p>
 
 <!-- TABLE OF CONTENTS -->
