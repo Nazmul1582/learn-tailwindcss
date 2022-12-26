@@ -1,84 +1,73 @@
 <br />
  <p align="center">
-    <h1 align="center"> use of theme() and screen() function - Lesson11</h1>
+    <h1 align="center"> Tailwind Configurations - Advanced Concepts - Lesson12</h1>
 </p>
 
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
 
-- [Functions](#functions)
+- [Configuration](#configuration)
   - [theme](#theme)
   - [screen](#screen)
 
 <br>
 
-# Functions
+# Configuration
+
+A guide to configuring and customizing your Tailwind installation.
 
 Tailwind adds a few custom functions you can use in your CSS to access Tailwind-specific values. These functions are evaluated at build-time, and are replaced by static values in your final CSS.
 
-​
-
-## theme()
-
-Use the theme() function to access your Tailwind config values using dot notation.
-
 ```css
-.content-area {
-  height: calc(100vh - theme(spacing.12));
-}
-```
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  darkMode: "class",
+  content: ["./src/**/*.html"],
+  theme: {
+    /*
+    // this colors object(outside the extend object) will replace the tailwind's colors object. So, tailwind's other colors classes will not work now.
+    colors:{
+      gray:{
+        300: "#ddd"
+      }
+    },
+  */
 
-If you need to access a value that contains a dot (like the 2.5 value in the spacing scale), you can use square bracket notation:
+    /*
+    // this colors object(inside the theme.extend object) will replace only tailwind's colors.gray.300 property.
+    extend: {
+      colors:{
+        gray:{
+          300: "#ddd"
+        }
+      }
+    },
+  },
+  */
 
-```css
-.content-area {
-  height: calc(100vh - theme(spacing[2.5]));
-}
-```
+    /* if I use this colors object, I won't use tailwind's other colors
+  colors: {
+    'blue': '#1fb6ff',
+    'purple': '#7e5bef',
+    'pink': '#ff49db',
+    'orange': '#ff7849',
+    'green': '#13ce66',
+    'yellow': '#ffc82c',
+    'gray-dark': '#273444',
+    'gray': '#8492a6',
+    'gray-light': '#d3dce6',
+  },
+  */
+    extend: {},
+  },
+  plugins: [
+    /* here we write down third party or our own plugins name */
+  ],
+};
 
-Since Tailwind uses a nested object syntax to define its default color palette, make sure to use dot notation to access the nested colors.
+/*  we can customizing anyting in our css file (./src/styles.css). but if we customize something here, we will get some extra facilities. (like: we will be suggeted our custom class by Tailwind InteliSence plugin etc.) */
 
-Don't use the dash syntax when accessing nested color values
-
-```css
-.btn-blue {
-  background-color: theme(colors.blue-500);
-}
-```
-
-Use dot notation to access nested color values
-
-```css
-.btn-blue {
-  background-color: theme(colors.blue.500);
-}
-```
-
-To adjust the opacity of a color retrieved with theme, use a slash followed by the opacity value you want to use:
-
-```css
-.btn-blue {
-  background-color: theme(colors.blue.500 / 75%);
-}
-```
-
-## screen()
-
-The screen function allows you to create media queries that reference your breakpoints by name instead of duplicating their values in your own CSS.
-
-```css
-@media screen(sm) {
-  /* ... */
-}
-```
-
-This will resolve to the underlying screen value at build-time, generating a regular media query that matches specified breakpoint:
-
-```css
-@media (min-width: 640px) {
-  /* ... */
-}
 ```
 
 <br>
