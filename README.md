@@ -13,6 +13,10 @@
 
 ## Output
 
+- new
+
+![custom variants](./images/lesson9.png)
+
 - previous card
 
   ![responsive card design](./images/Composing%20Utilities%20with%20%40apply%20Directive.png)

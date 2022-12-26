@@ -779,3 +779,9 @@ h1 {
     background-color: rgb(55 65 81 / var(--tw-bg-opacity));
   }
 }
+
+@media (min-width: 768px) {
+  .dark .md\:dark\:hover\:custom-bg-color:hover {
+    background: #132949;
+  }
+}
