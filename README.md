@@ -1,6 +1,6 @@
 <br />
  <p align="center">
-    <h1 align="center">Composing Utilities with @apply Directive - Lesson7</h1>
+    <h1 align="center">@layer Directive - Lesson8</h1>
 </p>
 
 <!-- TABLE OF CONTENTS -->
