@@ -8,8 +8,6 @@
 ## Table of Contents
 
 - [Configuration](#configuration)
-  - [theme](#theme)
-  - [screen](#screen)
 
 <br>
 
