@@ -2,18 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-/* group utilities */
+@layer components {
+  /* group utilities */
 
-.btn {
-  @apply px-4 py-2 rounded-full text-sm font-semibold border  focus:outline-none focus:ring-2  focus:ring-offset-2 duration-200 dark:focus:ring-offset-gray-800;
+  .btn {
+    @apply px-4 py-2 rounded-full text-sm font-semibold border  focus:outline-none focus:ring-2  focus:ring-offset-2 duration-200 dark:focus:ring-offset-gray-800;
 
-  @apply p-2;
+    @apply p-2;
+  }
+
+  .btn-orange {
+    @apply text-orange-400 border-orange-400 hover:bg-orange-400 hover:text-white  focus:ring-orange-400;
+  }
+
+  .btn-yellow {
+    @apply text-yellow-300 border-yellow-300 hover:bg-yellow-300 hover:text-black  focus:ring-yellow-300;
+  }
 }
 
-.btn-orange {
-  @apply text-orange-400 border-orange-400 hover:bg-orange-400 hover:text-white  focus:ring-orange-400;
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
 }
 
-.btn-yellow {
-  @apply text-yellow-300 border-yellow-300 hover:bg-yellow-300 hover:text-black  focus:ring-yellow-300;
+@layer utilities {
+  .custom-font-size {
+    font-size: 12px;
+  }
 }
