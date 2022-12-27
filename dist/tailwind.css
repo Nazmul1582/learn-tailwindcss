@@ -528,6 +528,12 @@ video {
   }
 }
 
+@media (min-width: 768px) {
+  .content {
+    width: 16rem;
+  }
+}
+
 @media (min-width: 992px) {
   .content {
     width: 50%;
