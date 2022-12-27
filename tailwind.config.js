@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["ubuntu", ...defaultTheme.fontFamily.sans],
+        sans: ["ubuntu"], // here tailwind's default sans font not working;
+        sans: ["ubuntu", ...defaultTheme.fontFamily.sans], // but here, default sans will working;
       },
     },
   },
