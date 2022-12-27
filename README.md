@@ -13,6 +13,9 @@
 
 # Tailwind CSS New Features
 
+![Print Modifier](./images/print-modifier.png)
+![Print Modifier](./images/print-modifier.png)
+
 ![New Features](./images/tailwindcss-v3.png)
 ![Just in Time](./images/tailwind-jit.png)
 
