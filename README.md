@@ -17,7 +17,9 @@
 
 ## screens core plugin
 
-If we customize screens property in theme `outside` of extend property, this customization will replace the screens configuration of tailwind css. So, we can't use other class of tailwind css for screens
+If we customize screens property in theme `outside` of extend property, this customization will `replace` the screens configuration of tailwind css. So, we can't use other class of tailwind css for screens.
+
+else we customize screens property in theme `inside` of extend property, this customization will `extend` `not replace` the screens configuration of tailwind css. So, we can use other class of tailwind css for screens.
 
 - code of tailwind.config.js file
 
@@ -56,5 +58,9 @@ module.exports = {
 
 ![screens core plugin of theme configuration](./images/screens%20core%20plugin%20of%20theme%20configuration.png)
 ![screens core plugin of theme configuration](./images/screens%20core%20plugin%20of%20theme%20configuration2.png)
+
+- Now it's perfectly working for screens.md
+  ![screens core plugin of theme configuration](./images/screens%20core%20plugin%20of%20theme%20configuration3.png)
+  ![screens core plugin of theme configuration](./images/screens%20core%20plugin%20of%20theme%20configuration4.png)
 
 <br>
