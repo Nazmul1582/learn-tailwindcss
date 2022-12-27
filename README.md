@@ -1,24 +1,27 @@
 <br />
  <p align="center">
-    <h1 align="center">  Extend Theme - Advanced Concepts - Lesson16</h1>
+    <h1 align="center">  Tailwind CSS New Features</h1>
 </p>
 
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
 
-- [Output](#output))
+- [Tailwind CSS New Features](#tailwind-css-new-features)
 
 <br>
 
-# Output
+# Tailwind CSS New Features
 
-- Before fontFamily extend
+![New Features](./images/tailwindcss-v3.png)
+![Just in Time](./images/tailwind-jit.png)
 
-![Before fontFamily extend](./images/before-font-family-extend.png)
+- Before JIT
 
-- After fontFamily extend
+![Before JIT](./images/before-jit.png)
 
-![After fontFamily extend](./images/after-font-family-extend.png)
+- After JIT
+
+  ![After JIT](./images/after-jit.png)
 
 <br>
