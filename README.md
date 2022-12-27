@@ -1,41 +1,57 @@
 <br />
  <p align="center">
-    <h1 align="center">  PostCSS Installation - Advanced Concepts - Lesson13</h1>
+    <h1 align="center">  Theme Configuration - Advanced Concepts - Lesson15</h1>
 </p>
 
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
 
-- [PostCSS](#postcss-installation)
+- [Theme Configuration](#theme-configuration)
+  - [screens core plugin](#screens-core-plugin)
+  - [Code](#code)
 
 <br>
 
-# PostCSS installation
+# Theme Configuration
 
-- fist command
+## screens core plugin
 
-```sh
-npm i postcss postcss-cli autoprefixer
-```
-
-- Then create a postcss config file
+- code of tailwind.config.js file
 
 ```sh
-npx tailwindcss init -p
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  darkMode: "class",
+  content: ["./src/**/*.html"],
+  theme: {
+    screens: {
+      sm: "540px",
+      lg: "992px",
+      "4xl": "1900px",
+    },
+    extend: {},
+  },
+  plugins: [],
+};
+
 ```
 
-- Then write a build script in package.json
+- code of ./src/styles.css file
 
-```sh
-"build-p": "npx postcss ./src/styles.css -o ./dist/tailwind.css -w"
+```css
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
 
+.content {
+  @apply p-2 lg:text-lg border rounded w-48 mx-auto 
+  sm:w-96 lg:w-1/2 4xl:w-1/3;
+}
 ```
 
-- finally run build-p
+## Code
 
-```sh
-npm run build-p
-```
+![screens core plugin of theme configuration](./images/screens%20core%20plugin%20of%20theme%20configuration.png)
 
 <br>

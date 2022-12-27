@@ -1,92 +1,32 @@
 /* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
-@layer components {
-  
-  .btn {
-    @apply px-4 py-2 rounded-full text-sm font-semibold border  focus:outline-none focus:ring-2  focus:ring-offset-2 duration-200 dark:focus:ring-offset-gray-800;
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 12rem;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  padding: 0.5rem
+}
 
-    @apply p-2;
-  }
-
-  .btn-orange {
-    @apply text-orange-400 border-orange-400 hover:bg-orange-400 hover:text-white  focus:ring-orange-400;
-  }
-
-  .btn-yellow {
-    @apply text-yellow-300 border-yellow-300 hover:bg-yellow-300 hover:text-black  focus:ring-yellow-300;
+@media (min-width: 540px) {
+  .content {
+    width: 24rem
   }
 }
 
-@layer base {
-  h1 {
-    @apply text-2xl;
+@media (min-width: 992px) {
+  .content {
+    width: 50%;
+    font-size: 1.125rem;
+    line-height: 1.75rem
   }
 }
 
-@layer utilities {
-  .custom-font-size {
-    font-size: 12px;
+@media (min-width: 1900px) {
+  .content {
+    width: 33.333333%
   }
-  .custom-bg-color {
-    background: #3f3f46;
-  }
-  @screen md {
-    .custom-bg-color {
-      background-color: #4b5563;
-    }
-  }
-} */
-
-/* using theme() function */
-
-/* .content-area {
-  height: clac(100vh - theme(spacing.12));
-} */
-
-/* .context-area {
-  height: calc(100vh - theme(spacing[3.5]))
-} */
-
-/* .btn-orange {
-  background-color: theme(colors.orange.300)
-} */
-
-/* .btn-orange {
-  background-color: theme(colors.orange.500 / 75%);
-} */
-
-/* use of screen() function */
-/* 
-@media screen(sm){
-  ...
-}
-
-@media screen(md){
-  ...
-}
-
-@media screen(lg) {
-  ...
-}
-
-@media screen(xl) {
-  ...
-}
-
-@media screen(2xl) {
-  ...
-} */
-
-.custom-bg {
-  background-color: tomato;
-}
-
-input::-moz-placeholder {
-  font-size: 12px;
-}
-
-input::placeholder {
-  font-size: 12px;
 }
