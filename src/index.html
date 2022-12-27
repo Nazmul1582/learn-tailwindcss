@@ -9,17 +9,19 @@
     <link rel="stylesheet" href="../dist/tailwind.css" />
   </head>
   <body>
-    <div class="p-8 min-h-screen grid place-items-center">
-      <div class="w-full max-w-4xl mx-auto">
-        <iframe
-          class="w-full rounded-md aspect-video"
-          src="https://www.youtube.com/embed/smDa6hoxLKI"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
+    <div class="flex gap-8 overflow-x-scroll p-8 w-screen snap-x">
+      <div
+        class="flex-shrink-0 bg-blue-400 w-80 h-40 rounded-2xl snap-center"
+      ></div>
+      <div
+        class="flex-shrink-0 bg-green-400 w-80 h-40 rounded-2xl snap-center"
+      ></div>
+      <div
+        class="flex-shrink-0 bg-yellow-400 w-80 h-40 rounded-2xl snap-center"
+      ></div>
+      <div
+        class="flex-shrink-0 bg-red-400 w-80 h-40 rounded-2xl snap-center"
+      ></div>
     </div>
   </body>
 </html>
