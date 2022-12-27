@@ -20,10 +20,5 @@
   "homepage": "https://github.com/Nazmul1582/tailwindcss#readme",
   "devDependencies": {
     "tailwindcss": "^3.2.4"
-  },
-  "dependencies": {
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.20",
-    "postcss-cli": "^10.1.0"
   }
 }
