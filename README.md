@@ -17,6 +17,8 @@
 
 ## screens core plugin
 
+If we customize screens property in theme `outside` of extend property, this customization will replace the screens configuration of tailwind css. So, we can't use other class of tailwind css for screens
+
 - code of tailwind.config.js file
 
 ```sh
@@ -46,12 +48,13 @@ module.exports = {
 
 .content {
   @apply p-2 lg:text-lg border rounded w-48 mx-auto 
-  sm:w-96 lg:w-1/2 4xl:w-1/3;
+  sm:w-96 lg:w-1/2 4xl:w-1/3 md:w-64;
 }
 ```
 
 ## Code
 
 ![screens core plugin of theme configuration](./images/screens%20core%20plugin%20of%20theme%20configuration.png)
+![screens core plugin of theme configuration](./images/screens%20core%20plugin%20of%20theme%20configuration2.png)
 
 <br>
