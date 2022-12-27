@@ -1,41 +1,32 @@
 <br />
  <p align="center">
-    <h1 align="center">  PostCSS Installation - Advanced Concepts - Lesson13</h1>
+    <h1 align="center">  Just in Time - Advanced Concepts - Lesson14</h1>
 </p>
 
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
 
-- [PostCSS](#postcss-installation)
+- [Just-in-Time](#just-in-time)
 
 <br>
 
-# PostCSS installation
+# Just-in-Time
 
-- fist command
+আগের classic engine টা just-in-time দ্বারা replace হয়ে গেছে।
+রান টাইমে(সময় মত) build করতে পারে। lightening fast build দিবে সে। আমরা এখন চোখের নিমিষে আউটপুট দেখতে পাবো।
 
-```sh
-npm i postcss postcss-cli autoprefixer
-```
+- lightening fast build
+- Stackable variants
+- Abitary value support
 
-- Then create a postcss config file
+আগে বিশাল বড় file size তৈরি হতো। যেটাকে file size ballooning problem বলা হতো। এখন এই problem টা থাকবে না।
 
-```sh
-npx tailwindcss init -p
-```
+- Before JIT
 
-- Then write a build script in package.json
+![Before JIT](./images/before-jit.png)
 
-```sh
-"build-p": "npx postcss ./src/styles.css -o ./dist/tailwind.css -w"
-
-```
-
-- finally run build-p
-
-```sh
-npm run build-p
-```
+- After JIT
+  ![After JIT](./images/after-jit.png)
 
 <br>
