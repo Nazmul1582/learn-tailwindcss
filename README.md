@@ -1,6 +1,6 @@
 <br />
  <p align="center">
-    <h1 align="center">  Tailwind CSS New Features: Scroll behavior</h1>
+    <h1 align="center">  Tailwind CSS New Features: Multi Columns Layout</h1>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -14,5 +14,6 @@
 # Tailwind CSS New Features
 
 ![Scroll behavior](./images/scroll-behavior.png)
+![Multi Columns Layout](./images/Multi%20Columns%20Layout.png)
 
 <br>
